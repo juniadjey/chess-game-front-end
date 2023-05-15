@@ -1,0 +1,53 @@
+
+.box_white{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 60px;
+    text-align: center;
+}
+.box_white:hover{
+    background-color: bisque;
+}
+
+.box_black{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.box_black:hover{
+    background-color: grey;
+}
+.first{
+    display: flex;
+}
+.alpha{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    border: 1px solid black;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.chess{
+    box-sizing: border-box;
+    margin-bottom: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h2{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+  
+}
